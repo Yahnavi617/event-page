@@ -237,31 +237,30 @@ body {
 }
 
 
-/* ================================
-   MOBILE
-================================ */
+
 
 @media (max-width: 650px) {
 
     .events-section {
         width: 90%;
-        padding: 40px 0;
+        padding: 50px 0;
     }
 
     .events-section h1 {
         font-size: 2rem;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .filter-buttons {
         gap: 8px;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
 
     .filter-btn {
         padding: 8px 15px;
-        font-size: 13px;
+        font-size: 14px;
     }
+
 
     .event-grid {
         grid-template-columns: 1fr;
@@ -278,9 +277,6 @@ body {
 }
 
 
-/* ================================
-   SMALL MOBILE
-================================ */
 
 @media (max-width: 400px) {
 
