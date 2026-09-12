@@ -41,24 +41,23 @@ body {
 .filter-btn {
     border: 1px solid #d9deea;
     background: #ffffff;
-    color: #4b5563;
+    color: #52634b;
     padding: 10px 80px;
     border-radius: 30px;
     font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
+
     transition: all 0.25s ease;
 }
 
 .filter-btn:hover {
     background: #eef2ff;
     color: #4f46e5;
-    border-color: #6366f1;
+    border-color: #6356f1;
     transform: translateY(-2px);
 }
 
 .filter-btn.active {
-    background: #4f46e5;
+    background: #e5a346;
     color: #ffffff;
     border-color: #4f46e5;
     box-shadow: 0 6px 18px rgba(79, 70, 229, 0.25);
@@ -79,17 +78,13 @@ body {
     box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
 
     transition:
-        transform 0.3s ease,
+        transform 0.5s ease,
         box-shadow 0.3s ease;
 
     display: flex;
     flex-direction:row;
 }
 
-.event-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.13);
-}
 
 
 
