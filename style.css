@@ -38,29 +38,13 @@ body {
     margin-bottom: 45px;
 }
 
-.filter-btn {
-    border: 1px solid #d9deea;
-    background: #ffffff;
-    color: #52634b;
-    padding: 10px 80px;
-    border-radius: 30px;
-    font-size: 14px;
 
-    transition: all 0.25s ease;
-}
-
-.filter-btn:hover {
-    background: #eef2ff;
-    color: #4f46e5;
-    border-color: #6356f1;
-    transform: translateY(-2px);
-}
 
 .filter-btn.active {
-    background: #e5a346;
+    background: #e5469d;
     color: #ffffff;
     border-color: #4f46e5;
-    box-shadow: 0 6px 18px rgba(79, 70, 229, 0.25);
+    box-shadow: 0 6px 18px rgba(32, 228, 143, 0.25);
 }
 
 
