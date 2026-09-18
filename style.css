@@ -72,7 +72,7 @@ body {
     color: #4f46e5;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 70;
 
     transition:
         color 0.2s ease,
@@ -80,14 +80,12 @@ body {
 }
 
 .learn-more:hover {
-    color: #3730a3;
+    color: #86a330;
     transform: translateX(4px);
 }
 
 
-/* ================================
-   TABLET
-================================ */
+
 
 @media (max-width: 950px) {
 
