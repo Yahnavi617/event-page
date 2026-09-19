@@ -79,10 +79,7 @@ body {
         transform 0.2s ease;
 }
 
-.learn-more:hover {
-    color: #86a330;
-    transform: translateX(4px);
-}
+
 
 
 
@@ -152,7 +149,7 @@ body {
     }
 
     .event-card img {
-        height: 180px;
-        font-size: 13px;
+        height: 980px;
+        font-size: 17px;
     }
 }
