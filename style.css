@@ -1,7 +1,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 3px;
     box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ body {
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 800;
     letter-spacing: -1px;
-    margin-bottom: 37px;
+    margin-bottom: 67px;
     color: #111827;
 }
 
@@ -84,55 +84,8 @@ body {
 
 
 
-@media (max-width: 950px) {
-
-    .event-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .events-section {
-        padding: 55px 0;
-    }
-}
 
 
 
-
-@media (max-width: 650px) {
-
-    .events-section {
-        width: 90%;
-        padding: 70px 0;
-    }
-
-    .events-section h1 {
-        font-size: 2rem;
-        margin-bottom: 20px;
-    }
-
-    .filter-buttons {
-        gap: 8px;
-        margin-bottom: 75px;
-    }
-
-    .filter-btn {
-        padding: 8px 15px;
-        font-size: 14px;
-    }
-
-
-    .event-grid {
-        grid-template-columns: 1fr;
-        gap: 22px;
-    }
-
-    .event-card img {
-        height: 400px;
-    }
-
-    .event-content {
-        padding: 90px;
-    }
-}
 
 
