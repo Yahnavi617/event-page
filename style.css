@@ -1,20 +1,15 @@
 
 * {
     margin: 0;
-    padding: 3px;
+    padding: 6px;
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Inter", "Segoe UI",  sans-serif;
-    background: #f5f7fb;
-    color: #172033;
-    line-height: 1.6;
-}
+
 
 
 .events-section {
-    width: min(1200px, 92%);
+    width: min(1800px, 92%);
     margin: 0 auto;
     padding: 60px 0;
 }
